@@ -1,0 +1,130 @@
+body
+{
+    background-color: hsl(30, 38%, 92%);
+    //display: flex;
+    //justify-content: center;
+    //align-content: center;
+}
+
+#card
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 15px;
+
+    width: 900px;
+    height: 700px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+}
+
+#image
+{
+}
+
+#card img
+{
+    border-radius: 15px 0 0 15px;
+    max-height: 700px;
+
+}
+
+#reduce_price
+{
+    color: hsl(158, 36%, 37%);
+    font-size: 40px;
+}
+
+#old_price
+{
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
+#button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 5px;
+    width: 360px;
+    font-size: 20px;
+}
+
+#button img
+{
+    margin-right: 10px;
+    height: 23px;
+    border-radius: 0;
+}
+
+#button p
+{
+    margin-left: 10px;
+}
+
+#type, #description, #old_price, #button
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#name
+{
+    font-family: 'Fraunces', sans-serif;
+}
+
+#type, #description, #old_price
+{
+    color: hsl(228, 12%, 48%);
+}
+
+#prices
+{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+}
+
+#description
+{
+    font-size: 20px;
+}
+
+#name, #reduce_price
+{
+    font-weight: bold;
+}
+
+#content
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 40px;
+    width: 400px;
+    flex-shrink: 0;
+    height: 600px;
+}
+
+#type
+{
+    letter-spacing: 5px;
+    margin-top: 30px;
+
+}
+
+#name
+{
+    font-size: 20px;
+}
